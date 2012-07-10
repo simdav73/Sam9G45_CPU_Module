@@ -1,0 +1,1432 @@
+(PCB SAM9G45_MODULE
+ (description
+  (timeStamp "2012 07 05 21 55 46")
+  (program "CAPTURE.EXE" (Version "9.2.3.S002"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "July 05, 2012")
+  (document "F:\\DESIGNS\\SAM9G45_MODULE\\SCHEMATICS\\SAM9G45_MODULE.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component SAM9G45
+   (place U1
+    (property 
+     ("PCB Footprint" BGA324_08MM)
+     (timestamp 000066C5)
+     ("Source Package" SAM9G45)
+     (Value SAM9G45))))
+  (component FX10_80W_PLG
+   (place J7
+    (property 
+     ("PCB Footprint" FX10_80W_HDR)
+     (timestamp 00002BBF)
+     ("Source Package" FX10_80W_PLG)
+     (Value FX10_80W_PLG)))
+   (place J8
+    (property 
+     ("PCB Footprint" FX10_80W_HDR)
+     (timestamp 00002D2F)
+     ("Source Package" FX10_80W_PLG)
+     (Value FX10_80W_PLG))))
+  (component FX10_80W_SKT
+   (place J5
+    (property 
+     ("PCB Footprint" FX10_80W_SKT)
+     (timestamp 0000282A)
+     ("Source Package" FX10_80W_SKT)
+     (Value FX10_80W_SKT)))
+   (place J6
+    (property 
+     ("PCB Footprint" FX10_80W_SKT)
+     (timestamp 0000299A)
+     ("Source Package" FX10_80W_SKT)
+     (Value FX10_80W_SKT)))))
+ (library
+  (image SAM9G45
+   (property 
+    (sourcelib F:\\DESIGNS\\SCHEMATICLIBRARY\\SD_LIBRARY.OLB))
+   (pin 999 L1
+    (property 
+     (pinname PA0/MCI0_CK/TCLK3)
+     (pintype 4)))
+   (pin 999 M1
+    (property 
+     (pinname PA1/MCI0_CDA/TIOA3)
+     (pintype 4)))
+   (pin 999 L5
+    (property 
+     (pinname PA2/MCI0_DA0/TIOB3)
+     (pintype 4)))
+   (pin 999 N1
+    (property 
+     (pinname PA3/MCI0_DA1/TCLK4)
+     (pintype 4)))
+   (pin 999 L6
+    (property 
+     (pinname PA4/MCI0_DA2/TIOA4)
+     (pintype 4)))
+   (pin 999 M2
+    (property 
+     (pinname PA5/MCI0_DA3/TIOB4)
+     (pintype 4)))
+   (pin 999 M3
+    (property 
+     (pinname PA6/MCI0_DA4/ETX2)
+     (pintype 4)))
+   (pin 999 M4
+    (property 
+     (pinname PA7/MCI0_DA5/ETX3)
+     (pintype 4)))
+   (pin 999 L7
+    (property 
+     (pinname PA8/MCI0_DA6/ERX2)
+     (pintype 4)))
+   (pin 999 N2
+    (property 
+     (pinname PA9/MCI0_DA7/ERX3)
+     (pintype 4)))
+   (pin 999 M5
+    (property 
+     (pinname PA10/ETX0)
+     (pintype 4)))
+   (pin 999 P1
+    (property 
+     (pinname PA11/ETX1)
+     (pintype 4)))
+   (pin 999 N3
+    (property 
+     (pinname PA12/ERX0)
+     (pintype 4)))
+   (pin 999 P2
+    (property 
+     (pinname PA13/ERX1)
+     (pintype 4)))
+   (pin 999 M6
+    (property 
+     (pinname PA14/ETXEN)
+     (pintype 4)))
+   (pin 999 N4
+    (property 
+     (pinname PA15/ERXDV)
+     (pintype 4)))
+   (pin 999 N5
+    (property 
+     (pinname PA16/ERXER)
+     (pintype 4)))
+   (pin 999 N6
+    (property 
+     (pinname PA17/ETXCK)
+     (pintype 4)))
+   (pin 999 R1
+    (property 
+     (pinname PA18/EMDC)
+     (pintype 4)))
+   (pin 999 P3
+    (property 
+     (pinname PA19/EMDIO)
+     (pintype 4)))
+   (pin 999 R2
+    (property 
+     (pinname PA20/TWD0)
+     (pintype 4)))
+   (pin 999 P4
+    (property 
+     (pinname PA21/TWCK0)
+     (pintype 4)))
+   (pin 999 T1
+    (property 
+     (pinname PA22/MCI1_CDA_SCK3)
+     (pintype 4)))
+   (pin 999 P5
+    (property 
+     (pinname PA23/MCI1_DA0/RTS3)
+     (pintype 4)))
+   (pin 999 R3
+    (property 
+     (pinname PA24/MCI1_DA1/CTS3)
+     (pintype 4)))
+   (pin 999 T2
+    (property 
+     (pinname PA25/MCI1_DA2/PWM3)
+     (pintype 4)))
+   (pin 999 T3
+    (property 
+     (pinname PA26/MCI1_DA3/TIOB)
+     (pintype 4)))
+   (pin 999 U1
+    (property 
+     (pinname PA27/MCI1_DA4/ETXER)
+     (pintype 4)))
+   (pin 999 U3
+    (property 
+     (pinname PA28/MCI1_DA5/ERXCK)
+     (pintype 4)))
+   (pin 999 U2
+    (property 
+     (pinname PA29/MCI1_DA6/ECRS)
+     (pintype 4)))
+   (pin 999 R4
+    (property 
+     (pinname PA30/MCI1_DA7/ECOL)
+     (pintype 4)))
+   (pin 999 V1
+    (property 
+     (pinname PA31/MCI1_CK/PCK0)
+     (pintype 4)))
+   (pin 999 T4
+    (property 
+     (pinname PB0/SPI0_MISO)
+     (pintype 4)))
+   (pin 999 V2
+    (property 
+     (pinname PB1/SPI0_MOSI)
+     (pintype 4)))
+   (pin 999 V3
+    (property 
+     (pinname PB2/SPI0_SPCK)
+     (pintype 4)))
+   (pin 999 U4
+    (property 
+     (pinname PB3/SPI0_NPCS0)
+     (pintype 4)))
+   (pin 999 R5
+    (property 
+     (pinname PB4/TXD1)
+     (pintype 4)))
+   (pin 999 V4
+    (property 
+     (pinname PB5/RXD1)
+     (pintype 4)))
+   (pin 999 T5
+    (property 
+     (pinname PB6/TXD2)
+     (pintype 4)))
+   (pin 999 U5
+    (property 
+     (pinname PB7/RXD2)
+     (pintype 4)))
+   (pin 999 T12
+    (property 
+     (pinname PB8/TXD3/ISI_D8)
+     (pintype 4)))
+   (pin 999 N11
+    (property 
+     (pinname PB9/RXD3/ISI_D9)
+     (pintype 4)))
+   (pin 999 U13
+    (property 
+     (pinname PB10/TWD1/ISI_D10)
+     (pintype 4)))
+   (pin 999 M11
+    (property 
+     (pinname PB11/TWCK1/ISI_D11)
+     (pintype 4)))
+   (pin 999 P6
+    (property 
+     (pinname PB12/DRXD)
+     (pintype 4)))
+   (pin 999 R6
+    (property 
+     (pinname PB13/DTXD)
+     (pintype 4)))
+   (pin 999 M7
+    (property 
+     (pinname PB14/SPI1_MISO)
+     (pintype 4)))
+   (pin 999 V5
+    (property 
+     (pinname PB15/SPI1_MOSI/CTS0)
+     (pintype 4)))
+   (pin 999 T6
+    (property 
+     (pinname PB16/SPI1_SPCK/SCK0)
+     (pintype 4)))
+   (pin 999 U6
+    (property 
+     (pinname PB17/SPI1_NPCS0/RTS0)
+     (pintype 4)))
+   (pin 999 N7
+    (property 
+     (pinname PB18/RDX0/SPI0_NPCS1)
+     (pintype 4)))
+   (pin 999 P7
+    (property 
+     (pinname PB19/TXD0/SPI0_NPCS2)
+     (pintype 4)))
+   (pin 999 P12
+    (property 
+     (pinname PB20/ISI_D0)
+     (pintype 4)))
+   (pin 999 T15
+    (property 
+     (pinname PB21/ISI_D1)
+     (pintype 4)))
+   (pin 999 R12
+    (property 
+     (pinname PB22/ISI_D2)
+     (pintype 4)))
+   (pin 999 T16
+    (property 
+     (pinname PB23/ISI_D3)
+     (pintype 4)))
+   (pin 999 N12
+    (property 
+     (pinname PB24/ISI_D4)
+     (pintype 4)))
+   (pin 999 M12
+    (property 
+     (pinname PB25/ISI_D5)
+     (pintype 4)))
+   (pin 999 U14
+    (property 
+     (pinname PB26/ISI_D6)
+     (pintype 4)))
+   (pin 999 M13
+    (property 
+     (pinname PB27/ISI_D7)
+     (pintype 4)))
+   (pin 999 N13
+    (property 
+     (pinname PB28/ISI_D8)
+     (pintype 4)))
+   (pin 999 R13
+    (property 
+     (pinname PB29/ISI_VSYNC)
+     (pintype 4)))
+   (pin 999 T13
+    (property 
+     (pinname PB30/ISI_HSYNC)
+     (pintype 4)))
+   (pin 999 P13
+    (property 
+     (pinname PB31/ISI_MCK/PCK1)
+     (pintype 4)))
+   (pin 999 A8
+    (property 
+     (pinname PC0/DQM2)
+     (pintype 4)))
+   (pin 999 E9
+    (property 
+     (pinname PC1/DQM3)
+     (pintype 4)))
+   (pin 999 B8
+    (property 
+     (pinname PC2/A19)
+     (pintype 4)))
+   (pin 999 C8
+    (property 
+     (pinname PC3/A20)
+     (pintype 4)))
+   (pin 999 F9
+    (property 
+     (pinname PC4/A21/NANDALE)
+     (pintype 4)))
+   (pin 999 A7
+    (property 
+     (pinname PC5/A22/NANDCLE)
+     (pintype 4)))
+   (pin 999 D8
+    (property 
+     (pinname PC6/A23)
+     (pintype 4)))
+   (pin 999 A6
+    (property 
+     (pinname PC7/A24)
+     (pintype 4)))
+   (pin 999 E8
+    (property 
+     (pinname PC8/CFCE1)
+     (pintype 4)))
+   (pin 999 C7
+    (property 
+     (pinname PC9/CFCW2/RTS2)
+     (pintype 4)))
+   (pin 999 B6
+    (property 
+     (pinname PC10/NCS4/CFCS0/TCLK2)
+     (pintype 4)))
+   (pin 999 B7
+    (property 
+     (pinname PC11/NCS5/CFCS1/CTS2)
+     (pintype 4)))
+   (pin 999 A5
+    (property 
+     (pinname PC12/A25/CFRNW)
+     (pintype 4)))
+   (pin 999 D7
+    (property 
+     (pinname PC13/NCS2)
+     (pintype 4)))
+   (pin 999 F8
+    (property 
+     (pinname PC14/NCS3/NANDCS)
+     (pintype 4)))
+   (pin 999 C6
+    (property 
+     (pinname PC15/NWAIT)
+     (pintype 4)))
+   (pin 999 E7
+    (property 
+     (pinname PC16/D16)
+     (pintype 4)))
+   (pin 999 B5
+    (property 
+     (pinname PC17/D17)
+     (pintype 4)))
+   (pin 999 D6
+    (property 
+     (pinname PC18/D18)
+     (pintype 4)))
+   (pin 999 F7
+    (property 
+     (pinname PC19/D19)
+     (pintype 4)))
+   (pin 999 A4
+    (property 
+     (pinname PC20/D20)
+     (pintype 4)))
+   (pin 999 C5
+    (property 
+     (pinname PC21/D21)
+     (pintype 4)))
+   (pin 999 B4
+    (property 
+     (pinname PC22/D22)
+     (pintype 4)))
+   (pin 999 E6
+    (property 
+     (pinname PC23/D23)
+     (pintype 4)))
+   (pin 999 D5
+    (property 
+     (pinname PC24/D24)
+     (pintype 4)))
+   (pin 999 A3
+    (property 
+     (pinname PC25/D25)
+     (pintype 4)))
+   (pin 999 C4
+    (property 
+     (pinname PC26/D26)
+     (pintype 4)))
+   (pin 999 A1
+    (property 
+     (pinname PC27/D27)
+     (pintype 4)))
+   (pin 999 A2
+    (property 
+     (pinname PC28/D28)
+     (pintype 4)))
+   (pin 999 B2
+    (property 
+     (pinname PC29/D29)
+     (pintype 4)))
+   (pin 999 B3
+    (property 
+     (pinname PC30/D30)
+     (pintype 4)))
+   (pin 999 B1
+    (property 
+     (pinname PC31/D31)
+     (pintype 4)))
+   (pin 999 R7
+    (property 
+     (pinname PD0/TK0/PWM3)
+     (pintype 4)))
+   (pin 999 T7
+    (property 
+     (pinname PD1/TF0)
+     (pintype 4)))
+   (pin 999 L8
+    (property 
+     (pinname PD2/TD0)
+     (pintype 4)))
+   (pin 999 V6
+    (property 
+     (pinname PD3/RD0)
+     (pintype 4)))
+   (pin 999 M8
+    (property 
+     (pinname PD4/RK0)
+     (pintype 4)))
+   (pin 999 V7
+    (property 
+     (pinname PD5/RF0)
+     (pintype 4)))
+   (pin 999 N8
+    (property 
+     (pinname PD6/AC97RX)
+     (pintype 4)))
+   (pin 999 U7
+    (property 
+     (pinname PD7/AC97TX/TIOA5)
+     (pintype 4)))
+   (pin 999 P8
+    (property 
+     (pinname PD8/AC97FS/TIOB5)
+     (pintype 4)))
+   (pin 999 R8
+    (property 
+     (pinname PD9/97CK/TCLK5)
+     (pintype 4)))
+   (pin 999 U8
+    (property 
+     (pinname PD10/TD1)
+     (pintype 4)))
+   (pin 999 T8
+    (property 
+     (pinname PD11/RD1)
+     (pintype 4)))
+   (pin 999 V8
+    (property 
+     (pinname PD12/TK1/PCK0)
+     (pintype 4)))
+   (pin 999 L9
+    (property 
+     (pinname PD13/RK1)
+     (pintype 4)))
+   (pin 999 U9
+    (property 
+     (pinname PD14/TF1)
+     (pintype 4)))
+   (pin 999 M9
+    (property 
+     (pinname PD15/RF1)
+     (pintype 4)))
+   (pin 999 N9
+    (property 
+     (pinname PD16/RTS1)
+     (pintype 4)))
+   (pin 999 V9
+    (property 
+     (pinname PD17/CTS1)
+     (pintype 4)))
+   (pin 999 R9
+    (property 
+     (pinname PD18/SPI1_NPCS2/IRQ)
+     (pintype 4)))
+   (pin 999 T9
+    (property 
+     (pinname PD19/SPI1_NPCS3/FIQ)
+     (pintype 4)))
+   (pin 999 D2
+    (property 
+     (pinname PD20/TIOA0)
+     (pintype 4)))
+   (pin 999 E1
+    (property 
+     (pinname PD21/TIOA1)
+     (pintype 4)))
+   (pin 999 F1
+    (property 
+     (pinname PD22/TIOA2)
+     (pintype 4)))
+   (pin 999 G2
+    (property 
+     (pinname PD23/TCLK0)
+     (pintype 4)))
+   (pin 999 F2
+    (property 
+     (pinname PD24/SPI0_NPCS1/PWM0)
+     (pintype 4)))
+   (pin 999 G1
+    (property 
+     (pinname PD25/SPI0_NPCS2/PWM1)
+     (pintype 4)))
+   (pin 999 H1
+    (property 
+     (pinname PD26/PCK0/PWM2)
+     (pintype 4)))
+   (pin 999 H2
+    (property 
+     (pinname PD27/PCK1/SPI0_NPCS3)
+     (pintype 4)))
+   (pin 999 P9
+    (property 
+     (pinname PD28/TSADTRG/SPI1_NPCS1)
+     (pintype 4)))
+   (pin 999 L10
+    (property 
+     (pinname PD29/TCLK1/SCK1)
+     (pintype 4)))
+   (pin 999 T10
+    (property 
+     (pinname PD30/TIOB0/SCK2)
+     (pintype 4)))
+   (pin 999 L11
+    (property 
+     (pinname PD31/TIOB1/PWM1)
+     (pintype 4)))
+   (pin 999 G4
+    (property 
+     (pinname PE0/LCDPWR/PCK0)
+     (pintype 4)))
+   (pin 999 F4
+    (property 
+     (pinname PE1/LCDMOD)
+     (pintype 4)))
+   (pin 999 G5
+    (property 
+     (pinname PE2/LCDCC)
+     (pintype 4)))
+   (pin 999 F5
+    (property 
+     (pinname PE3/LCDVSYNC)
+     (pintype 4)))
+   (pin 999 G7
+    (property 
+     (pinname PE4/LCDHSYNC)
+     (pintype 4)))
+   (pin 999 H5
+    (property 
+     (pinname PE5/LCDDOTCK)
+     (pintype 4)))
+   (pin 999 G3
+    (property 
+     (pinname PE6/LCDDEN)
+     (pintype 4)))
+   (pin 999 H6
+    (property 
+     (pinname PE7/LCDD0/LCDD2)
+     (pintype 4)))
+   (pin 999 G6
+    (property 
+     (pinname PE8/LCDD1/LCDD3)
+     (pintype 4)))
+   (pin 999 H7
+    (property 
+     (pinname PE9/LCDD2/LCDD4)
+     (pintype 4)))
+   (pin 999 H8
+    (property 
+     (pinname PE10/LCDD3/LCDD5)
+     (pintype 4)))
+   (pin 999 G8
+    (property 
+     (pinname PE11/LCDD4/LCDD6)
+     (pintype 4)))
+   (pin 999 J5
+    (property 
+     (pinname PE12/LCDD5/LCDD7)
+     (pintype 4)))
+   (pin 999 H4
+    (property 
+     (pinname PE13/LCDD6/LCDD10)
+     (pintype 4)))
+   (pin 999 J3
+    (property 
+     (pinname PE14/LCDD7/LCDD11)
+     (pintype 4)))
+   (pin 999 J4
+    (property 
+     (pinname PE15/LCDD8/LCDD12)
+     (pintype 4)))
+   (pin 999 J2
+    (property 
+     (pinname PE16/LCDD9/LCDD13)
+     (pintype 4)))
+   (pin 999 J6
+    (property 
+     (pinname PE17/LCDD10/LCDD14)
+     (pintype 4)))
+   (pin 999 J7
+    (property 
+     (pinname PE18/LCDD11/LCDD15)
+     (pintype 4)))
+   (pin 999 J1
+    (property 
+     (pinname PE19/LCDD12/LCDD18)
+     (pintype 4)))
+   (pin 999 J8
+    (property 
+     (pinname PE20/LCDD13/LCDD19)
+     (pintype 4)))
+   (pin 999 K1
+    (property 
+     (pinname PE21/LCDD14/LCDD20)
+     (pintype 4)))
+   (pin 999 K4
+    (property 
+     (pinname PE22/LCDD15/LCDD21)
+     (pintype 4)))
+   (pin 999 K2
+    (property 
+     (pinname PE23/LCDD16/LCDD22)
+     (pintype 4)))
+   (pin 999 K5
+    (property 
+     (pinname PE24/LCDD17/LCDD23)
+     (pintype 4)))
+   (pin 999 K6
+    (property 
+     (pinname PE25/LCDD18)
+     (pintype 4)))
+   (pin 999 K3
+    (property 
+     (pinname PE26/LCDD19)
+     (pintype 4)))
+   (pin 999 K7
+    (property 
+     (pinname PE27/LCDD20)
+     (pintype 4)))
+   (pin 999 K8
+    (property 
+     (pinname PE28/LCDD21)
+     (pintype 4)))
+   (pin 999 L3
+    (property 
+     (pinname PE29/LCDD22)
+     (pintype 4)))
+   (pin 999 L2
+    (property 
+     (pinname PE30/LCDD23)
+     (pintype 4)))
+   (pin 999 L4
+    (property 
+     (pinname PE31/PWM2/PCK1)
+     (pintype 4))))
+  (image FX10_80W_SKT
+   (property 
+    (sourcelib F:\\DESIGNS\\SCHEMATICLIBRARY\\SD_LIBRARY.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname 15)
+     (pintype 4)))
+   (pin 999 17
+    (property 
+     (pinname 17)
+     (pintype 4)))
+   (pin 999 19
+    (property 
+     (pinname 19)
+     (pintype 4)))
+   (pin 999 21
+    (property 
+     (pinname 21)
+     (pintype 4)))
+   (pin 999 23
+    (property 
+     (pinname 23)
+     (pintype 4)))
+   (pin 999 25
+    (property 
+     (pinname 25)
+     (pintype 4)))
+   (pin 999 27
+    (property 
+     (pinname 27)
+     (pintype 4)))
+   (pin 999 29
+    (property 
+     (pinname 29)
+     (pintype 4)))
+   (pin 999 31
+    (property 
+     (pinname 31)
+     (pintype 4)))
+   (pin 999 33
+    (property 
+     (pinname 33)
+     (pintype 4)))
+   (pin 999 35
+    (property 
+     (pinname 35)
+     (pintype 4)))
+   (pin 999 37
+    (property 
+     (pinname 37)
+     (pintype 4)))
+   (pin 999 39
+    (property 
+     (pinname 39)
+     (pintype 4)))
+   (pin 999 41
+    (property 
+     (pinname 41)
+     (pintype 4)))
+   (pin 999 43
+    (property 
+     (pinname 43)
+     (pintype 4)))
+   (pin 999 45
+    (property 
+     (pinname 45)
+     (pintype 4)))
+   (pin 999 47
+    (property 
+     (pinname 47)
+     (pintype 4)))
+   (pin 999 49
+    (property 
+     (pinname 49)
+     (pintype 4)))
+   (pin 999 51
+    (property 
+     (pinname 51)
+     (pintype 4)))
+   (pin 999 53
+    (property 
+     (pinname 53)
+     (pintype 4)))
+   (pin 999 55
+    (property 
+     (pinname 55)
+     (pintype 4)))
+   (pin 999 57
+    (property 
+     (pinname 57)
+     (pintype 4)))
+   (pin 999 59
+    (property 
+     (pinname 59)
+     (pintype 4)))
+   (pin 999 61
+    (property 
+     (pinname 61)
+     (pintype 4)))
+   (pin 999 63
+    (property 
+     (pinname 63)
+     (pintype 4)))
+   (pin 999 65
+    (property 
+     (pinname 65)
+     (pintype 4)))
+   (pin 999 67
+    (property 
+     (pinname 67)
+     (pintype 4)))
+   (pin 999 69
+    (property 
+     (pinname 69)
+     (pintype 4)))
+   (pin 999 71
+    (property 
+     (pinname 71)
+     (pintype 4)))
+   (pin 999 73
+    (property 
+     (pinname 73)
+     (pintype 4)))
+   (pin 999 75
+    (property 
+     (pinname 75)
+     (pintype 4)))
+   (pin 999 77
+    (property 
+     (pinname 77)
+     (pintype 4)))
+   (pin 999 79
+    (property 
+     (pinname 79)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname 16)
+     (pintype 4)))
+   (pin 999 18
+    (property 
+     (pinname 18)
+     (pintype 4)))
+   (pin 999 20
+    (property 
+     (pinname 20)
+     (pintype 4)))
+   (pin 999 22
+    (property 
+     (pinname 22)
+     (pintype 4)))
+   (pin 999 24
+    (property 
+     (pinname 24)
+     (pintype 4)))
+   (pin 999 26
+    (property 
+     (pinname 26)
+     (pintype 4)))
+   (pin 999 28
+    (property 
+     (pinname 28)
+     (pintype 4)))
+   (pin 999 30
+    (property 
+     (pinname 30)
+     (pintype 4)))
+   (pin 999 32
+    (property 
+     (pinname 32)
+     (pintype 4)))
+   (pin 999 34
+    (property 
+     (pinname 34)
+     (pintype 4)))
+   (pin 999 36
+    (property 
+     (pinname 36)
+     (pintype 4)))
+   (pin 999 38
+    (property 
+     (pinname 38)
+     (pintype 4)))
+   (pin 999 40
+    (property 
+     (pinname 40)
+     (pintype 4)))
+   (pin 999 42
+    (property 
+     (pinname 42)
+     (pintype 4)))
+   (pin 999 44
+    (property 
+     (pinname 44)
+     (pintype 4)))
+   (pin 999 46
+    (property 
+     (pinname 46)
+     (pintype 4)))
+   (pin 999 48
+    (property 
+     (pinname 48)
+     (pintype 4)))
+   (pin 999 50
+    (property 
+     (pinname 50)
+     (pintype 4)))
+   (pin 999 52
+    (property 
+     (pinname 52)
+     (pintype 4)))
+   (pin 999 54
+    (property 
+     (pinname 54)
+     (pintype 4)))
+   (pin 999 56
+    (property 
+     (pinname 56)
+     (pintype 4)))
+   (pin 999 58
+    (property 
+     (pinname 58)
+     (pintype 4)))
+   (pin 999 60
+    (property 
+     (pinname 60)
+     (pintype 4)))
+   (pin 999 62
+    (property 
+     (pinname 62)
+     (pintype 4)))
+   (pin 999 64
+    (property 
+     (pinname 64)
+     (pintype 4)))
+   (pin 999 66
+    (property 
+     (pinname 66)
+     (pintype 4)))
+   (pin 999 68
+    (property 
+     (pinname 68)
+     (pintype 4)))
+   (pin 999 70
+    (property 
+     (pinname 70)
+     (pintype 4)))
+   (pin 999 72
+    (property 
+     (pinname 72)
+     (pintype 4)))
+   (pin 999 74
+    (property 
+     (pinname 74)
+     (pintype 4)))
+   (pin 999 76
+    (property 
+     (pinname 76)
+     (pintype 4)))
+   (pin 999 78
+    (property 
+     (pinname 78)
+     (pintype 4)))
+   (pin 999 80
+    (property 
+     (pinname 80)
+     (pintype 4)))
+   (pin 999 81
+    (property 
+     (pinname 81)
+     (pintype 4)))
+   (pin 999 83
+    (property 
+     (pinname 83)
+     (pintype 4)))
+   (pin 999 85
+    (property 
+     (pinname 85)
+     (pintype 4)))
+   (pin 999 87
+    (property 
+     (pinname 87)
+     (pintype 4)))
+   (pin 999 82
+    (property 
+     (pinname 82)
+     (pintype 4)))
+   (pin 999 84
+    (property 
+     (pinname 84)
+     (pintype 4)))
+   (pin 999 86
+    (property 
+     (pinname 86)
+     (pintype 4)))
+   (pin 999 88
+    (property 
+     (pinname 88)
+     (pintype 4)))
+   (pin 999 89
+    (property 
+     (pinname 89)
+     (pintype 4)))
+   (pin 999 90
+    (property 
+     (pinname 90)
+     (pintype 4))))
+  (image FX10_80W_PLG
+   (property 
+    (sourcelib F:\\DESIGNS\\SCHEMATICLIBRARY\\SD_LIBRARY.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)))
+   (pin 999 15
+    (property 
+     (pinname 15)
+     (pintype 4)))
+   (pin 999 17
+    (property 
+     (pinname 17)
+     (pintype 4)))
+   (pin 999 19
+    (property 
+     (pinname 19)
+     (pintype 4)))
+   (pin 999 21
+    (property 
+     (pinname 21)
+     (pintype 4)))
+   (pin 999 23
+    (property 
+     (pinname 23)
+     (pintype 4)))
+   (pin 999 25
+    (property 
+     (pinname 25)
+     (pintype 4)))
+   (pin 999 27
+    (property 
+     (pinname 27)
+     (pintype 4)))
+   (pin 999 29
+    (property 
+     (pinname 29)
+     (pintype 4)))
+   (pin 999 31
+    (property 
+     (pinname 31)
+     (pintype 4)))
+   (pin 999 33
+    (property 
+     (pinname 33)
+     (pintype 4)))
+   (pin 999 35
+    (property 
+     (pinname 35)
+     (pintype 4)))
+   (pin 999 37
+    (property 
+     (pinname 37)
+     (pintype 4)))
+   (pin 999 39
+    (property 
+     (pinname 39)
+     (pintype 4)))
+   (pin 999 41
+    (property 
+     (pinname 41)
+     (pintype 4)))
+   (pin 999 43
+    (property 
+     (pinname 43)
+     (pintype 4)))
+   (pin 999 45
+    (property 
+     (pinname 45)
+     (pintype 4)))
+   (pin 999 47
+    (property 
+     (pinname 47)
+     (pintype 4)))
+   (pin 999 49
+    (property 
+     (pinname 49)
+     (pintype 4)))
+   (pin 999 51
+    (property 
+     (pinname 51)
+     (pintype 4)))
+   (pin 999 53
+    (property 
+     (pinname 53)
+     (pintype 4)))
+   (pin 999 55
+    (property 
+     (pinname 55)
+     (pintype 4)))
+   (pin 999 57
+    (property 
+     (pinname 57)
+     (pintype 4)))
+   (pin 999 59
+    (property 
+     (pinname 59)
+     (pintype 4)))
+   (pin 999 61
+    (property 
+     (pinname 61)
+     (pintype 4)))
+   (pin 999 63
+    (property 
+     (pinname 63)
+     (pintype 4)))
+   (pin 999 65
+    (property 
+     (pinname 65)
+     (pintype 4)))
+   (pin 999 67
+    (property 
+     (pinname 67)
+     (pintype 4)))
+   (pin 999 69
+    (property 
+     (pinname 69)
+     (pintype 4)))
+   (pin 999 71
+    (property 
+     (pinname 71)
+     (pintype 4)))
+   (pin 999 73
+    (property 
+     (pinname 73)
+     (pintype 4)))
+   (pin 999 75
+    (property 
+     (pinname 75)
+     (pintype 4)))
+   (pin 999 77
+    (property 
+     (pinname 77)
+     (pintype 4)))
+   (pin 999 79
+    (property 
+     (pinname 79)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)))
+   (pin 999 16
+    (property 
+     (pinname 16)
+     (pintype 4)))
+   (pin 999 18
+    (property 
+     (pinname 18)
+     (pintype 4)))
+   (pin 999 20
+    (property 
+     (pinname 20)
+     (pintype 4)))
+   (pin 999 22
+    (property 
+     (pinname 22)
+     (pintype 4)))
+   (pin 999 24
+    (property 
+     (pinname 24)
+     (pintype 4)))
+   (pin 999 26
+    (property 
+     (pinname 26)
+     (pintype 4)))
+   (pin 999 28
+    (property 
+     (pinname 28)
+     (pintype 4)))
+   (pin 999 30
+    (property 
+     (pinname 30)
+     (pintype 4)))
+   (pin 999 32
+    (property 
+     (pinname 32)
+     (pintype 4)))
+   (pin 999 34
+    (property 
+     (pinname 34)
+     (pintype 4)))
+   (pin 999 36
+    (property 
+     (pinname 36)
+     (pintype 4)))
+   (pin 999 38
+    (property 
+     (pinname 38)
+     (pintype 4)))
+   (pin 999 40
+    (property 
+     (pinname 40)
+     (pintype 4)))
+   (pin 999 42
+    (property 
+     (pinname 42)
+     (pintype 4)))
+   (pin 999 44
+    (property 
+     (pinname 44)
+     (pintype 4)))
+   (pin 999 46
+    (property 
+     (pinname 46)
+     (pintype 4)))
+   (pin 999 48
+    (property 
+     (pinname 48)
+     (pintype 4)))
+   (pin 999 50
+    (property 
+     (pinname 50)
+     (pintype 4)))
+   (pin 999 52
+    (property 
+     (pinname 52)
+     (pintype 4)))
+   (pin 999 54
+    (property 
+     (pinname 54)
+     (pintype 4)))
+   (pin 999 56
+    (property 
+     (pinname 56)
+     (pintype 4)))
+   (pin 999 58
+    (property 
+     (pinname 58)
+     (pintype 4)))
+   (pin 999 60
+    (property 
+     (pinname 60)
+     (pintype 4)))
+   (pin 999 62
+    (property 
+     (pinname 62)
+     (pintype 4)))
+   (pin 999 64
+    (property 
+     (pinname 64)
+     (pintype 4)))
+   (pin 999 66
+    (property 
+     (pinname 66)
+     (pintype 4)))
+   (pin 999 68
+    (property 
+     (pinname 68)
+     (pintype 4)))
+   (pin 999 70
+    (property 
+     (pinname 70)
+     (pintype 4)))
+   (pin 999 72
+    (property 
+     (pinname 72)
+     (pintype 4)))
+   (pin 999 74
+    (property 
+     (pinname 74)
+     (pintype 4)))
+   (pin 999 76
+    (property 
+     (pinname 76)
+     (pintype 4)))
+   (pin 999 78
+    (property 
+     (pinname 78)
+     (pintype 4)))
+   (pin 999 80
+    (property 
+     (pinname 80)
+     (pintype 4)))
+   (pin 999 81
+    (property 
+     (pinname 81)
+     (pintype 4)))
+   (pin 999 83
+    (property 
+     (pinname 83)
+     (pintype 4)))
+   (pin 999 85
+    (property 
+     (pinname 85)
+     (pintype 4)))
+   (pin 999 87
+    (property 
+     (pinname 87)
+     (pintype 4)))
+   (pin 999 82
+    (property 
+     (pinname 82)
+     (pintype 4)))
+   (pin 999 84
+    (property 
+     (pinname 84)
+     (pintype 4)))
+   (pin 999 86
+    (property 
+     (pinname 86)
+     (pintype 4)))
+   (pin 999 88
+    (property 
+     (pinname 88)
+     (pintype 4)))
+   (pin 999 89
+    (property 
+     (pinname 89)
+     (pintype 4)))
+   (pin 999 90
+    (property 
+     (pinname 90)
+     (pintype 4)))))
+ (network
+  (net GND
+    (property 
+     (nettype S))
+   (pins
+     J5-11 J5-33 J5-55 J5-77 J5-12 J5-34 J5-56 J5-78 J7-12
+     J7-34 J7-56 J8-12 J8-34 J8-56 J8-78 J6-11 J6-33 J6-55
+     J6-77 J7-11 J7-33 J7-55 J7-77 J8-11 J8-33 J8-55 J8-77
+     J6-12 J6-34 J6-56 J6-78 J5-89 J5-90 J7-78 J6-89 J6-90
+     J7-90 J7-89 J8-89 J8-90)))
+)

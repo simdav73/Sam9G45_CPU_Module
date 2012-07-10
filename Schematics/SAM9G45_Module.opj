@@ -1,0 +1,67 @@
+(ExpressProject "SAM9G45_Module"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "f:\designs\schematiclibrary\sd_library.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\sam9g45_module.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "SAM9G45_MODULE.asc")
+    (OTHER_Netlist_File2 "SAM9G45_MODULE.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "pads2k.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE"))
+  (Folder "Outputs"
+    (File ".\sam9g45_module.asc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (SAM9G45
+      (FullPartName "SAM9G45A.Normal")
+      (LibraryName "F:\DESIGNS\SCHEMATICLIBRARY\SD_LIBRARY.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "F:\DESIGNS\SAM9G45_Module\Schematics\sam9g45_module.dsn")
+      (Path "Design Resources"
+         "F:\DESIGNS\SAM9G45_Module\Schematics\sam9g45_module.dsn"
+         "SAM9G45_MODULE")
+      (Path "Design Resources"
+         "F:\DESIGNS\SAM9G45_Module\Schematics\sam9g45_module.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "f:\designs\schematiclibrary\sd_library.olb")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -28 0 200 0 622"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -28 207 1828 207 865")
+        (Scroll "0 375")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "F:\DESIGNS\SAM9G45_MODULE\SCHEMATICS\SAM9G45_MODULE.DSN")
+      (Schematic "SAM9G45_MODULE")
+      (Page "HEADERS"))))
