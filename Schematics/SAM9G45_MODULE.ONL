@@ -1,10 +1,10 @@
 (PCB SAM9G45_MODULE
  (description
-  (timeStamp "2012 07 10 22 20 20")
+  (timeStamp "2012 07 11 20 59 05")
   (program "CAPTURE.EXE" (Version "9.2.3.S002"))
   (source "Original data from OrCAD/CAPTURE schematic")
   (title "")
-  (date "July 10, 2012")
+  (date "Wednesday, July 11, 2012")
   (document "F:\\DESIGNS\\SAM9G45_MODULE\\SCHEMATICS\\SAM9G45_MODULE.DSN")
   (revision "")
   (organization "")
@@ -48,7 +48,21 @@
      ("PCB Footprint" FX10_80W_SKT)
      (timestamp 0000299A)
      ("Source Package" FX10_80W_SKT)
-     (Value FX10_80W_SKT)))))
+     (Value FX10_80W_SKT))))
+  (component "MT47H64M16HR-3"
+   (place U2
+    (property 
+     ("PCB Footprint" "IC-MT47H64M16HR-3")
+     (timestamp 00008537)
+     ("Source Package" "MT47H64M16HR-3")
+     (Value "MT47H64M16HR-3"))))
+  (component "DM3A-SF-PEJ"
+   (place J9
+    (property 
+     ("PCB Footprint" "SK-DM3A-SF-PEJ")
+     (timestamp 00EB005D)
+     ("Source Package" "DM3A-SF-PEJ")
+     (Value "DM3A-SF-PEJ")))))
  (library
   (image SAM9G45
    (property 
@@ -1345,6 +1359,345 @@
     (property 
      (pinname VDDBU)
      (pintype 4))))
+  (image "MT47H64M16HR-3"
+   (property 
+    (sourcelib F:\\DESIGNS\\SCHEMATICLIBRARY\\SD_LIBRARY.OLB))
+   (pin 999 M8
+    (property 
+     (pinname A0)
+     (pintype 4)))
+   (pin 999 M3
+    (property 
+     (pinname A1)
+     (pintype 4)))
+   (pin 999 M7
+    (property 
+     (pinname A2)
+     (pintype 4)))
+   (pin 999 N2
+    (property 
+     (pinname A3)
+     (pintype 4)))
+   (pin 999 N8
+    (property 
+     (pinname A4)
+     (pintype 4)))
+   (pin 999 N3
+    (property 
+     (pinname A5)
+     (pintype 4)))
+   (pin 999 N7
+    (property 
+     (pinname A6)
+     (pintype 4)))
+   (pin 999 P2
+    (property 
+     (pinname A7)
+     (pintype 4)))
+   (pin 999 P8
+    (property 
+     (pinname A8)
+     (pintype 4)))
+   (pin 999 P3
+    (property 
+     (pinname A9)
+     (pintype 4)))
+   (pin 999 M2
+    (property 
+     (pinname A10)
+     (pintype 4)))
+   (pin 999 P7
+    (property 
+     (pinname A11)
+     (pintype 4)))
+   (pin 999 R2
+    (property 
+     (pinname A12)
+     (pintype 4)))
+   (pin 999 L2
+    (property 
+     (pinname BA0)
+     (pintype 4)))
+   (pin 999 L3
+    (property 
+     (pinname BA1)
+     (pintype 4)))
+   (pin 999 L1
+    (property 
+     (pinname BA2)
+     (pintype 4)))
+   (pin 999 K7
+    (property 
+     (pinname RAS#)
+     (pintype 4)))
+   (pin 999 L7
+    (property 
+     (pinname CAS#)
+     (pintype 4)))
+   (pin 999 K3
+    (property 
+     (pinname WE#)
+     (pintype 4)))
+   (pin 999 R7
+    (property 
+     (pinname RFU_A)
+     (pintype 4)))
+   (pin 999 R8
+    (property 
+     (pinname RFU_A)
+     (pintype 4)))
+   (pin 999 R3
+    (property 
+     (pinname RFU_A)
+     (pintype 4)))
+   (pin 999 G8
+    (property 
+     (pinname DQ0)
+     (pintype 4)))
+   (pin 999 G2
+    (property 
+     (pinname DQ1)
+     (pintype 4)))
+   (pin 999 H7
+    (property 
+     (pinname DQ2)
+     (pintype 4)))
+   (pin 999 H3
+    (property 
+     (pinname DQ3)
+     (pintype 4)))
+   (pin 999 H1
+    (property 
+     (pinname DQ4)
+     (pintype 4)))
+   (pin 999 H9
+    (property 
+     (pinname DQ5)
+     (pintype 4)))
+   (pin 999 F1
+    (property 
+     (pinname DQ6)
+     (pintype 4)))
+   (pin 999 F9
+    (property 
+     (pinname DQ7)
+     (pintype 4)))
+   (pin 999 C8
+    (property 
+     (pinname DQ8)
+     (pintype 4)))
+   (pin 999 C2
+    (property 
+     (pinname DQ9)
+     (pintype 4)))
+   (pin 999 D7
+    (property 
+     (pinname DQ10)
+     (pintype 4)))
+   (pin 999 D3
+    (property 
+     (pinname DQ11)
+     (pintype 4)))
+   (pin 999 D1
+    (property 
+     (pinname DQ12)
+     (pintype 4)))
+   (pin 999 D9
+    (property 
+     (pinname DQ13)
+     (pintype 4)))
+   (pin 999 B1
+    (property 
+     (pinname DQ14)
+     (pintype 4)))
+   (pin 999 B9
+    (property 
+     (pinname DQ15)
+     (pintype 4)))
+   (pin 999 F7
+    (property 
+     (pinname LDQS)
+     (pintype 4)))
+   (pin 999 E8
+    (property 
+     (pinname LDQS#)
+     (pintype 4)))
+   (pin 999 B7
+    (property 
+     (pinname UDQS)
+     (pintype 4)))
+   (pin 999 A8
+    (property 
+     (pinname UDQS#)
+     (pintype 4)))
+   (pin 999 J8
+    (property 
+     (pinname CK)
+     (pintype 4)))
+   (pin 999 K8
+    (property 
+     (pinname CK#)
+     (pintype 4)))
+   (pin 999 K2
+    (property 
+     (pinname CKE)
+     (pintype 4)))
+   (pin 999 L8
+    (property 
+     (pinname CS#)
+     (pintype 4)))
+   (pin 999 F3
+    (property 
+     (pinname LDM)
+     (pintype 4)))
+   (pin 999 B3
+    (property 
+     (pinname UDM)
+     (pintype 4)))
+   (pin 999 K9
+    (property 
+     (pinname ODT)
+     (pintype 4)))
+   (pin 999 A1
+    (property 
+     (pinname VDD_C)
+     (pintype 4)))
+   (pin 999 E1
+    (property 
+     (pinname VDD_C)
+     (pintype 4)))
+   (pin 999 J9
+    (property 
+     (pinname VDD_C)
+     (pintype 4)))
+   (pin 999 M9
+    (property 
+     (pinname VDD_C)
+     (pintype 4)))
+   (pin 999 R1
+    (property 
+     (pinname VDD_C)
+     (pintype 4)))
+   (pin 999 A9
+    (property 
+     (pinname VDDQ_C)
+     (pintype 4)))
+   (pin 999 C9
+    (property 
+     (pinname VDDQ_C)
+     (pintype 4)))
+   (pin 999 C7
+    (property 
+     (pinname VDDQ_C)
+     (pintype 4)))
+   (pin 999 C1
+    (property 
+     (pinname VDDQ_C)
+     (pintype 4)))
+   (pin 999 E9
+    (property 
+     (pinname VDDQ_C)
+     (pintype 4)))
+   (pin 999 G1
+    (property 
+     (pinname VDDQ_C)
+     (pintype 4)))
+   (pin 999 G3
+    (property 
+     (pinname VDDQ_C)
+     (pintype 4)))
+   (pin 999 G7
+    (property 
+     (pinname VDDQ_C)
+     (pintype 4)))
+   (pin 999 G9
+    (property 
+     (pinname VDDQ_C)
+     (pintype 4)))
+   (pin 999 C3
+    (property 
+     (pinname VDDQ_C)
+     (pintype 4)))
+   (pin 999 A3
+    (property 
+     (pinname VSS_C)
+     (pintype 4)))
+   (pin 999 E3
+    (property 
+     (pinname VSS_C)
+     (pintype 4)))
+   (pin 999 J3
+    (property 
+     (pinname VSS_C)
+     (pintype 4)))
+   (pin 999 N1
+    (property 
+     (pinname VSS_C)
+     (pintype 4)))
+   (pin 999 P9
+    (property 
+     (pinname VSS_C)
+     (pintype 4)))
+   (pin 999 A7
+    (property 
+     (pinname VSSQ_C)
+     (pintype 4)))
+   (pin 999 B2
+    (property 
+     (pinname VSSQ_C)
+     (pintype 4)))
+   (pin 999 B8
+    (property 
+     (pinname VSSQ_C)
+     (pintype 4)))
+   (pin 999 D2
+    (property 
+     (pinname VSSQ_C)
+     (pintype 4)))
+   (pin 999 D8
+    (property 
+     (pinname VSSQ_C)
+     (pintype 4)))
+   (pin 999 E7
+    (property 
+     (pinname VSSQ_C)
+     (pintype 4)))
+   (pin 999 F2
+    (property 
+     (pinname VSSQ_C)
+     (pintype 4)))
+   (pin 999 F8
+    (property 
+     (pinname VSSQ_C)
+     (pintype 4)))
+   (pin 999 H2
+    (property 
+     (pinname VSSQ_C)
+     (pintype 4)))
+   (pin 999 H8
+    (property 
+     (pinname VSSQ_C)
+     (pintype 4)))
+   (pin 999 J1
+    (property 
+     (pinname VDDL)
+     (pintype 4)))
+   (pin 999 J2
+    (property 
+     (pinname VREF)
+     (pintype 4)))
+   (pin 999 J7
+    (property 
+     (pinname VSSDL)
+     (pintype 4)))
+   (pin 999 A2
+    (property 
+     (pinname NC_C)
+     (pintype 4)))
+   (pin 999 E2
+    (property 
+     (pinname NC_C)
+     (pintype 4))))
   (image FX10_80W_SKT
    (property 
     (sourcelib F:\\DESIGNS\\SCHEMATICLIBRARY\\SD_LIBRARY.OLB))
@@ -2070,17 +2423,384 @@
    (pin 999 90
     (property 
      (pinname 90)
-     (pintype 4)))))
+     (pintype 4))))
+  (image "DM3A-SF-PEJ"
+   (property 
+    (sourcelib F:\\DESIGNS\\SCHEMATICLIBRARY\\SD_LIBRARY.OLB))
+   (pin 999 3
+    (property 
+     (pinname CMD)
+     (pintype 4)))
+   (pin 999 4
+    (property 
+     (pinname VDD)
+     (pintype 4)))
+   (pin 999 5
+    (property 
+     (pinname CLK)
+     (pintype 4)))
+   (pin 999 6
+    (property 
+     (pinname VSS)
+     (pintype 4)))
+   (pin 999 7
+    (property 
+     (pinname DAT0)
+     (pintype 4)))
+   (pin 999 8
+    (property 
+     (pinname DAT1)
+     (pintype 4)))
+   (pin 999 1
+    (property 
+     (pinname DAT2)
+     (pintype 4)))
+   (pin 999 2
+    (property 
+     (pinname CD/DAT3)
+     (pintype 4)))
+   (pin 999 9
+    (property 
+     (pinname CD_B)
+     (pintype 4)))
+   (pin 999 10
+    (property 
+     (pinname GND)
+     (pintype 7)))
+   (pin 999 11
+    (property 
+     (pinname GND)
+     (pintype 7)))
+   (pin 999 12
+    (property 
+     (pinname CD_A)
+     (pintype 4)))
+   (pin 999 13
+    (property 
+     (pinname GND)
+     (pintype 7)))
+   (pin 999 14
+    (property 
+     (pinname GND)
+     (pintype 7)))))
  (network
   (net GND
     (property 
      (nettype S))
    (pins
-     U1-G9 U1-H9 U1-K11 U1-K12 U1-H10 U1-D3 U1-U17 U1-C2 U1-H12
-     U1-C16 U1-H13 U1-J12 U1-J13 U1-J10 U1-J9 U1-J11 J5-11 J5-33
+     U1-G9 U1-H13 U1-H12 U1-C16 U1-J10 U1-J9 U1-H9 U1-J11 U1-H10
+     U1-K12 U1-K11 U1-J13 U1-J12 U1-D3 U1-U17 U1-C2 J5-11 J5-33
      J5-55 J5-77 J5-12 J5-34 J5-56 J5-78 J7-12 J7-34 J7-56
      J8-12 J8-34 J8-56 J8-78 J6-11 J6-33 J6-55 J6-77 J7-11
      J7-33 J7-55 J7-77 J8-11 J8-33 J8-55 J8-77 J6-12 J6-34
      J6-56 J6-78 J5-89 J5-90 J7-78 J6-89 J6-90 J7-90 J7-89
-     J8-89 J8-90)))
+     J8-89 J8-90 J9-13 J9-11 J9-14 J9-10 J9-6 U2-A3 U2-H2
+     U2-H8 U2-F8 U2-F2 U2-J3 U2-E3 U2-P9 U2-B8 U2-B2 U2-A7
+     U2-D8 U2-E7 U2-D2 U2-N1))
+  (net EBI0_D1
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-R15))
+  (net EBI0_D2
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-T14))
+  (net EBI0_D3
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-P15))
+  (net EBI0_D4
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-P16))
+  (net EBI0_D5
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-P17))
+  (net EBI0_D6
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-R14))
+  (net EBI0_D7
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-P14))
+  (net EBI0_D8
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-N15))
+  (net EBI0_D9
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-N16))
+  (net EBI0_D10
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-P18))
+  (net EBI0_D11
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-N17))
+  (net EBI0_D12
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-N18))
+  (net EBI0_D13
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-N14))
+  (net EBI0_D14
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-M15))
+  (net EBI0_D0
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-R16))
+  (net EBI0_D15
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-M16))
+  (net EBI0_A1
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-L14))
+  (net EBI0_A2
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-M18))
+  (net EBI0_A3
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-L15))
+  (net EBI0_A4
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-L16))
+  (net EBI0_A5
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-L18))
+  (net EBI0_A6
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-L17))
+  (net EBI0_A7
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-K14))
+  (net EBI0_A8
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-K15))
+  (net EBI0_A9
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-K16))
+  (net EBI0_A10
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-K18))
+  (net EBI0_A11
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-K17))
+  (net EBI0_A12
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-J14))
+  (net EBI0_A13
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-J15))
+  (net EBI0_BA0
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-G17))
+  (net EBI0_BA1
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-G16))
+  (net EBI0_CKE
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-J16))
+  (net EBI0_CLK
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-J18))
+  (net EBI0_NCLK
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-H18))
+  (net EBI0_CS
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-H14))
+  (net EBI0_CAS
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-H17))
+  (net EBI0_RAS
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-J17))
+  (net EBI0_WE
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-H15))
+  (net EBI0_VREF
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-A16))
+  (net EBI0_DQM0
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-G14))
+  (net EBI0_DQM1
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-H16))
+  (net EBI0_DQS0
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-G18))
+  (net EBI0_DQS1
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-G15))
+  (net EBI0_A0
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-M17))
+  (net MCI0_CK
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-L1))
+  (net MCI0_CDA
+    (property 
+     (nettype P)
+     (netdir 1))
+   (pins
+     U1-M1 J9-3))
+  (net MCI0_DA0
+    (property 
+     (nettype P)
+     (netdir 1))
+   (pins
+     U1-L5 J9-7))
+  (net MCI0_DA1
+    (property 
+     (nettype P)
+     (netdir 1))
+   (pins
+     U1-N1 J9-8))
+  (net MCI0_DA2
+    (property 
+     (nettype P)
+     (netdir 1))
+   (pins
+     U1-L6 J9-1))
+  (net MCI0_DA3
+    (property 
+     (nettype P)
+     (netdir 1))
+   (pins
+     U1-M2 J9-2))
+  (net MCI0_CLK
+    (property 
+     (nettype P)
+     (netdir 1))
+   (pins
+     J9-5)))
 )
