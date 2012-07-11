@@ -24,12 +24,31 @@
     (OTHER_Switch3 "FALSE")
     (OTHER_Switch4 "FALSE")
     (OTHER_Switch5 "FALSE")
-    (OTHER_Switch6 "FALSE"))
+    (OTHER_Switch6 "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}"))
   (Folder "Outputs"
     (File ".\sam9g45_module.asc"
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (PORTBOTH-R
+      (LibraryName "C:\CADENCE\ORCAD_9.2.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\ORCAD_9.2.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\CADENCE\ORCAD_9.2.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DM3A-SF-PEJ
+      (FullPartName "DM3A-SF-PEJ.Normal")
+      (LibraryName "F:\DESIGNS\SCHEMATICLIBRARY\SD_LIBRARY.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName "C:\CADENCE\ORCAD_9.2.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -37,12 +56,6 @@
       (FullPartName "MT47H64M16HR-3C.Normal")
       (LibraryName "F:\DESIGNS\SCHEMATICLIBRARY\SD_LIBRARY.OLB")
       (DeviceIndex "2"))
-    (PORTRIGHT-R
-      (LibraryName "C:\CADENCE\ORCAD_9.2.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (PORTBOTH-R
-      (LibraryName "C:\CADENCE\ORCAD_9.2.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (SAM9G45
       (FullPartName "SAM9G45H.Normal")
       (LibraryName "F:\DESIGNS\SCHEMATICLIBRARY\SD_LIBRARY.OLB")
@@ -55,42 +68,18 @@
       (Path "Design Resources"
          "F:\DESIGNS\SAM9G45_Module\Schematics\sam9g45_module.dsn"
          "SAM9G45_MODULE")
-      (Path "Design Resources"
-         "F:\DESIGNS\SAM9G45_Module\Schematics\sam9g45_module.dsn"
-         "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "f:\designs\schematiclibrary\sd_library.olb")
       (Path "Outputs")
       (Select "Design Resources"
-         "F:\DESIGNS\SAM9G45_Module\Schematics\sam9g45_module.dsn"
-         "SAM9G45_MODULE" "DDR2 SDRAM"))
+         "F:\DESIGNS\SAM9G45_Module\Schematics\sam9g45_module.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -28 0 200 0 622"))
+        (Placement "44 2 3 -1 -1 -8 -28 0 435 0 622"))
       (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -28 207 1828 207 865")
-        (Scroll "0 375")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "F:\DESIGNS\SAM9G45_MODULE\SCHEMATICS\SAM9G45_MODULE.DSN")
-      (Schematic "SAM9G45_MODULE")
-      (Page "HEADERS"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -28 92 1713 92 750")
-        (Scroll "0 0")
-        (Zoom "45")
-        (Occurrence "/"))
-      (Path "F:\DESIGNS\SAM9G45_MODULE\SCHEMATICS\SAM9G45_MODULE.DSN")
-      (Schematic "SAM9G45_MODULE")
-      (Page "CPU"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
@@ -100,4 +89,14 @@
         (Occurrence "/"))
       (Path "F:\DESIGNS\SAM9G45_MODULE\SCHEMATICS\SAM9G45_MODULE.DSN")
       (Schematic "SAM9G45_MODULE")
-      (Page "DDR2 SDRAM"))))
+      (Page "Memory"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -28 207 1828 207 865")
+        (Scroll "0 0")
+        (Zoom "126")
+        (Occurrence "/"))
+      (Path "F:\DESIGNS\SAM9G45_MODULE\SCHEMATICS\SAM9G45_MODULE.DSN")
+      (Schematic "SAM9G45_MODULE")
+      (Page "DDR Impedance Adapter"))))

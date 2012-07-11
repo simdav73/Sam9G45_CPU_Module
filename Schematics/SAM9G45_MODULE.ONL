@@ -1,6 +1,6 @@
 (PCB SAM9G45_MODULE
  (description
-  (timeStamp "2012 07 11 20 59 05")
+  (timeStamp "2012 07 11 21 45 19")
   (program "CAPTURE.EXE" (Version "9.2.3.S002"))
   (source "Original data from OrCAD/CAPTURE schematic")
   (title "")
@@ -2494,9 +2494,9 @@
      J8-12 J8-34 J8-56 J8-78 J6-11 J6-33 J6-55 J6-77 J7-11
      J7-33 J7-55 J7-77 J8-11 J8-33 J8-55 J8-77 J6-12 J6-34
      J6-56 J6-78 J5-89 J5-90 J7-78 J6-89 J6-90 J7-90 J7-89
-     J8-89 J8-90 J9-13 J9-11 J9-14 J9-10 J9-6 U2-A3 U2-H2
-     U2-H8 U2-F8 U2-F2 U2-J3 U2-E3 U2-P9 U2-B8 U2-B2 U2-A7
-     U2-D8 U2-E7 U2-D2 U2-N1))
+     J8-89 J8-90 J9-10 J9-11 J9-13 J9-14 U2-A3 U2-E3 U2-J3
+     U2-N1 U2-P9 U2-A7 U2-B2 U2-B8 U2-D2 U2-D8 U2-E7 U2-F2
+     U2-F8 U2-H2 U2-H8 J9-6))
   (net EBI0_D1
     (property 
      (nettype P)
@@ -2764,7 +2764,7 @@
   (net MCI0_CK
     (property 
      (nettype P)
-     (netdir 2))
+     (netdir 1))
    (pins
      U1-L1))
   (net MCI0_CDA
@@ -2802,5 +2802,89 @@
      (nettype P)
      (netdir 1))
    (pins
-     J9-5)))
+     J9-5))
+  (net ETXEN
+    (property 
+     (nettype P)
+     (netdir 1))
+   (pins
+     U1-M6))
+  (net ETXCK
+    (property 
+     (nettype P)
+     (netdir 1))
+   (pins
+     U1-N6))
+  (net ETX0
+    (property 
+     (nettype P)
+     (netdir 1))
+   (pins
+     U1-M5))
+  (net ETX2
+    (property 
+     (nettype P)
+     (netdir 1))
+   (pins
+     U1-M3))
+  (net ETX3
+    (property 
+     (nettype P)
+     (netdir 1))
+   (pins
+     U1-M4))
+  (net ETX1
+    (property 
+     (nettype P)
+     (netdir 1))
+   (pins
+     U1-P1))
+  (net ERX0
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-N3))
+  (net ERX2
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-L7))
+  (net ERX3
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-N2))
+  (net ERX1
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-P2))
+  (net ERXDV
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-N4))
+  (net ERXER
+    (property 
+     (nettype P)
+     (netdir 2))
+   (pins
+     U1-N5))
+  (net EMDC
+    (property 
+     (nettype P)
+     (netdir 1))
+   (pins
+     U1-R1))
+  (net EMDIO
+    (property 
+     (nettype P)
+     (netdir 3))
+   (pins
+     U1-P3)))
 )
